@@ -340,7 +340,6 @@
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
-    text-align: center;
   }
   #hero h2 {
     font-size: 18px;
@@ -455,7 +454,9 @@ section {
 .about li{
   list-style-type: none
 }
-
+.about .foto{
+  border-radius: 90px 0px;
+}
 
 /*--------------------------------------------------------------
 # Teras
@@ -790,7 +791,12 @@ section {
   padding: 0;
   margin: 0 0 20px 0;
 }
-
+.tag a{
+  color: #212529;
+}
+.tag a:hover{
+  color: #198754;
+}
 .komen{
   margin-top: -250px !important;
 }
@@ -916,6 +922,18 @@ section {
 /*--------------------------------------------------------------
 # Toko
 --------------------------------------------------------------*/
+.toko .list{
+  list-style-type: none;
+}
+.toko .toko-item{
+  float: left !important;
+  padding: 0 20px ;
+}
+.toko input{
+  border-radius: 10px;
+  border: 1.5px solid #198754;
+
+}
 .toko-item h4{
   padding-top: 20px;
   text-align: center;
@@ -1054,6 +1072,19 @@ font-weight: 700;
 .event .card p{
   color: #495057;
   font-weight: 300;
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.notfound h1{
+  font-size: 7.5em;
+  margin: 15px 0px;
+  font-weight:500;
+}
+.notfound h2 {
+  font-weight:500;
 }
 
 /*--------------------------------------------------------------
